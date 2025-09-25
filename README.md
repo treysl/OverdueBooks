@@ -96,9 +96,9 @@ The terminal output shows the results of running the code:
 
 ### User Distinction
 
-- **Named users (e.g., Alice, Bob...) are part of the main library system and are used to simulate realistic operations—checking out books, accruing overdue fees, etc. Their actions illustrate how the system behaves under typical library scenarios with real user types.
+- Named users (e.g., Alice, Bob...) are part of the main library system and are used to simulate realistic operations—checking out books, accruing overdue fees, etc. Their actions illustrate how the system behaves under typical library scenarios with real user types.
 
-- **Test users (e.g., "Test User 1") are generated specifically in the section where exhaustive tests and edge cases are written, such as in the CSV export for unit testing. These synthetic entries allow you to directly control all parameters (overdue days, categories, user types) for focused, repeatable verification of the fee calculation logic, without interfering with the main simulation.
+- Test users (e.g., "Test User 1") are generated specifically in the section where exhaustive tests and edge cases are written, such as in the CSV export for unit testing. These synthetic entries allow you to directly control all parameters (overdue days, categories, user types) for focused, repeatable verification of the fee calculation logic, without interfering with the main simulation.
 
 ---
 
