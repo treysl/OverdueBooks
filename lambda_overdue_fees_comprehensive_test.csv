@@ -1,0 +1,11 @@
+base_rate,book_category,book_title,days_after_grace,days_overdue,description,due_date,progressive_fee,standard_fee,user_discount_factor,user_name,user_type,weekend_exclusive_fee
+1.25,textbook,Introduction to Algorithms,8,10,,2025-09-15,5.31,5.0,0.5,Alice Student,student,3.75
+0.75,bestseller,Harry Potter,15,17,,2025-09-08,4.27,3.38,0.3,Bob Senior,senior,2.48
+1.0,reference,Reference Manual,13,15,,2025-09-10,3.2,2.6,0.2,Carol Faculty,faculty,1.8
+0.25,children,Children's Stories,12,14,,2025-09-11,3.62,3.0,1.0,Dave Regular,regular,2.0
+0.5,regular,Fiction Novel,10,12,,2025-09-13,5.75,5.0,1.0,Dave Regular,regular,3.5
+0.5,regular,Test Book 1,0,1,Short overdue regular user,Test Scenario,0.0,0.0,1.0,Test User 1,regular,N/A - Test Scenario
+1.25,textbook,Test Book 2,3,5,Medium overdue student,Test Scenario,1.88,1.88,0.5,Test User 2,student,N/A - Test Scenario
+1.0,reference,Test Book 3,13,15,Long overdue senior,Test Scenario,4.8,3.9,0.3,Test User 3,senior,N/A - Test Scenario
+0.75,bestseller,Test Book 4,28,30,Very long overdue faculty,Test Scenario,5.78,4.2,0.2,Test User 4,faculty,N/A - Test Scenario
+0.25,children,Test Book 5,0,2,Grace period test,Test Scenario,0.0,0.0,1.0,Test User 5,regular,N/A - Test Scenario

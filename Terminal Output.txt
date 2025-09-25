@@ -1,0 +1,192 @@
+Library Management System initialized successfully!
+Books in system: 5
+Users in system: 4
+Sample checkouts created:
+Total checkouts: 5
+
+=== TESTING INDIVIDUAL LAMBDA FUNCTIONS ===
+Base fee for 5 days overdue on textbook: $6.25
+After student discount: $3.12
+Progressive fee for 10 days at $1.25/day: $14.38
+Days after 2-day grace period (5 days overdue): 3
+Fee of $75.00 after $50.00 cap: $50.00
+Bulk discount on $30.00 for 3 books: $27.00
+=== INTEGRATED SYSTEM DEMONSTRATION ===
+
+Overdue Books Report (as of 2025-09-25):
+================================================================================
+
+User: Alice Student | Book: Introduction to Algorithms (textbook)
+Due Date: 2025-09-15 | Days Overdue: 10
+Fee Calculations:
+  Standard: $5.00
+  Progressive: $5.31
+  Weekend Exclusive: $3.75
+
+User: Bob Senior | Book: Harry Potter (bestseller)
+Due Date: 2025-09-08 | Days Overdue: 17
+Fee Calculations:
+  Standard: $3.38
+  Progressive: $4.27
+  Weekend Exclusive: $2.48
+
+User: Carol Faculty | Book: Reference Manual (reference)
+Due Date: 2025-09-10 | Days Overdue: 15
+Fee Calculations:
+  Standard: $2.60
+  Progressive: $3.20
+  Weekend Exclusive: $1.80
+
+User: Dave Regular | Book: Children's Stories (children)
+Due Date: 2025-09-11 | Days Overdue: 14
+Fee Calculations:
+  Standard: $3.00
+  Progressive: $3.62
+  Weekend Exclusive: $2.00
+
+User: Dave Regular | Book: Fiction Novel (regular)
+Due Date: 2025-09-13 | Days Overdue: 12
+Fee Calculations:
+  Standard: $5.00
+  Progressive: $5.75
+  Weekend Exclusive: $3.50
+
+=== USER TOTAL FEE CALCULATIONS ===
+Alice Student (student) - Standard: $5.00
+Alice Student (student) - Progressive: $5.31
+Alice Student (student) - Weekend Exclusive: $3.75
+Bob Senior (senior) - Standard: $3.38
+Bob Senior (senior) - Progressive: $4.27
+Bob Senior (senior) - Weekend Exclusive: $2.48
+Carol Faculty (faculty) - Standard: $2.60
+Carol Faculty (faculty) - Progressive: $3.20
+Carol Faculty (faculty) - Weekend Exclusive: $1.80
+Dave Regular (regular) - Standard: $7.60
+Dave Regular (regular) - Progressive: $8.90
+Dave Regular (regular) - Weekend Exclusive: $5.22
+
+=== RETURN SCENARIOS ===
+On-time return fee: $0.00
+1 day late (within grace period): $0.00
+5 days late (after grace period): $0.75
+
+=== ADVANCED LAMBDA COMPOSITION ===
+Alice Student - Complex: $5.31, Standard: $5.00
+Bob Senior - Complex: $4.27, Standard: $3.38
+Carol Faculty - Complex: $3.20, Standard: $2.60
+
+=== LAMBDA FUNCTION FEATURES DEMONSTRATED ===
+✓ Modular fee calculation by book category
+✓ User-specific discount application
+✓ Progressive fee structure for extended overdue periods
+✓ Grace period implementation
+✓ Maximum fee capping
+✓ Bulk checkout discounts
+✓ Weekend exclusion options
+✓ Function composition for complex business rules
+✓ Multiple calculation strategies (standard, progressive, weekend-exclusive)
+
+Test results saved to 'overdue_fees_test_results.csv'
+Total test cases: 5
+=== INTEGRATED SYSTEM DEMONSTRATION ===
+
+Overdue Books Report (as of 2025-09-25):
+================================================================================
+
+User: Alice Student | Book: Introduction to Algorithms (textbook)
+Due Date: 2025-09-15 | Days Overdue: 10
+Fee Calculations:
+  Standard: $5.00
+  Progressive: $5.31
+  Weekend Exclusive: $3.75
+
+User: Bob Senior | Book: Harry Potter (bestseller)
+Due Date: 2025-09-08 | Days Overdue: 17
+Fee Calculations:
+  Standard: $3.38
+  Progressive: $4.27
+  Weekend Exclusive: $2.48
+
+User: Carol Faculty | Book: Reference Manual (reference)
+Due Date: 2025-09-10 | Days Overdue: 15
+Fee Calculations:
+  Standard: $2.60
+  Progressive: $3.20
+  Weekend Exclusive: $1.80
+
+User: Dave Regular | Book: Children's Stories (children)
+Due Date: 2025-09-11 | Days Overdue: 14
+Fee Calculations:
+  Standard: $3.00
+  Progressive: $3.62
+  Weekend Exclusive: $2.00
+
+User: Dave Regular | Book: Fiction Novel (regular)
+Due Date: 2025-09-13 | Days Overdue: 12
+Fee Calculations:
+  Standard: $5.00
+  Progressive: $5.75
+  Weekend Exclusive: $3.50
+
+=== USER TOTAL FEE CALCULATIONS ===
+Alice Student (student) - Standard: $4.75
+Alice Student (student) - Progressive: $5.04
+Alice Student (student) - Weekend Exclusive: $3.56
+Bob Senior (senior) - Standard: $3.38
+Bob Senior (senior) - Progressive: $4.27
+Bob Senior (senior) - Weekend Exclusive: $2.48
+Carol Faculty (faculty) - Standard: $2.60
+Carol Faculty (faculty) - Progressive: $3.20
+Carol Faculty (faculty) - Weekend Exclusive: $1.80
+Dave Regular (regular) - Standard: $7.60
+Dave Regular (regular) - Progressive: $8.90
+Dave Regular (regular) - Weekend Exclusive: $5.22
+
+=== RETURN SCENARIOS ===
+On-time return fee: $0.00
+1 day late (within grace period): $0.00
+5 days late (after grace period): $0.75
+
+=== ADVANCED LAMBDA COMPOSITION ===
+Alice Student - Complex: $5.31, Standard: $5.00
+Bob Senior - Complex: $4.27, Standard: $3.38
+Carol Faculty - Complex: $3.20, Standard: $2.60
+
+=== LAMBDA FUNCTION FEATURES DEMONSTRATED ===
+✓ Modular fee calculation by book category
+✓ User-specific discount application
+✓ Progressive fee structure for extended overdue periods
+✓ Grace period implementation
+✓ Maximum fee capping
+✓ Bulk checkout discounts
+✓ Weekend exclusion options
+✓ Function composition for complex business rules
+✓ Multiple calculation strategies (standard, progressive, weekend-exclusive)
+Comprehensive test results saved to 'lambda_overdue_fees_comprehensive_test.csv'
+Total test cases: 10
+
+=== LAMBDA FUNCTIONS SUMMARY ===
+• calculate_base_fee: Base overdue fee calculation by category
+• apply_user_discount: Apply user-type specific discounts
+• progressive_fee: Progressive fee structure for long overdue periods
+• cap_fee: Apply maximum fee limits
+• apply_grace_period: Grace period calculation
+• bulk_discount: Multi-book checkout discounts
+• exclude_weekends: Weekend exclusion for business days only
+
+=== MODULAR SYSTEM BENEFITS ===
+• Easy to modify individual fee calculation rules
+• Composable functions for complex business logic
+• Testable individual components
+• Flexible fee structure adaptation
+• Clear separation of concerns
+• Reusable across different library systems
+
+=== VERIFICATION TESTS ===
+Test 1 - Basic fee (5 days, textbook): PASS
+Test 2 - Student discount (50%): PASS
+Test 3 - Grace period (3 days - 2 grace = 1): PASS
+Test 4 - Fee cap ($75 -> $50): PASS
+Test 5 - Bulk discount (3 books, 10% off): PASS
+
+All tests passed: YES
