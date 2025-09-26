@@ -68,7 +68,7 @@ Traced the source to the logic feeding a `timedelta` (the difference between two
 
 ## Terminal Output Correlation
 
-The terminal output shows the results of running the code:
+The terminal output shows the results of running the code: [Link text](Terminal%20Output.txt)
 
 ### Initialization
 
